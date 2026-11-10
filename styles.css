@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    background-color: #111;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: #1d1d1d;
+    margin: 2px;
+    transition: background-color 1s ease;
+}
